@@ -1,0 +1,493 @@
+<html>
+	<head>
+	<meta charset = "utf-8">
+	</head>
+		<style>
+			.top
+			{
+				width:1164px;
+				margin:0 auto;
+				height:120px;
+			}
+
+			.topBolg
+			{
+				margin-top:50px;
+				margin-left:50px;
+			}
+
+			.topSelect
+			{	margin-top:-50px;
+				margin-left:610px;
+			}
+
+			input.topSelect
+			{
+				width:200px;
+				height:30px;
+			}
+
+			img.topSelect
+			{	
+				margin-top:-45px;
+				margin-left:1100px;
+			}
+			
+			.menu
+			{
+				margin: 0 auto;
+				
+				overflow:hidden;
+			}
+			.menu ul
+			{
+				margin: 0 auto;
+				width:1164px;
+				height:56px;
+				background-color:black;
+				list-style:none;
+				
+			}
+			.menu ul li
+			{
+				float:left;
+				width:140px;
+				text-align:center;
+				line-height:56px;
+				
+			}
+			.borderleft
+			{
+				border-right:solid 1px #606060;
+			}
+
+			.menu ul li a
+			{
+				display:block;
+				color:#FFFFFF;
+				text-decoration:none;
+				
+			}
+			.menu ul li a:hover
+			{
+				color:#FFFFFF;
+				background:red;
+			}
+			.photo
+			{
+				margin:0 auto;
+				width:1204px;
+			}
+			.newimg
+			{
+				float:right;
+				width:1204px;
+			}
+			.btnright
+			{
+				float:right;
+				width:60px;
+				height:60px;
+				margin-top:-60px;
+				
+			}
+			.btnleft
+			{
+				float:right;
+				width:60px;
+				height:60px;
+				margin-top:-60px;
+				margin-right:60px;
+			}
+		
+
+			.new
+			{
+				
+				margin: 0 auto;
+				width:1204px;
+				overflow:hidden;
+			
+			}
+			.news
+			{
+				float:left;
+				width:595px;
+				
+			}	
+			.news ul li
+			{
+				width:550px;
+				height:26px;
+				
+			}
+			.news span
+			{
+				display:block;
+				float:right;
+			}
+			.newright
+			{
+				
+				float:right;
+				width:600px;
+				
+			}
+
+			
+			.newjs
+			{
+				float:left;
+				width:300px;
+				background-color:#e5e5e5;
+				height:280px;
+				
+			}
+				
+			.newrc
+			{
+				float:right;
+				width:300px;
+			}
+
+			 .newrcimgA
+			{
+				float:right;
+				margin-top:20px;
+			}
+			.newrcimgB
+			{
+				margin-top:70px;
+				float:left;
+			}
+			.wolng
+			{
+				margin: 0 auto;
+				width:1204px;
+				margin-top:30px;
+				
+				overflow:hidden;
+			}
+			.wolng ul
+			{
+				list-style:none;
+			}
+			li.wosytle
+			{
+				float:left;
+			}
+			li.wosytle ul
+			{
+				width:251px;
+				
+			}
+			.content
+			{
+				margin: 0 auto;
+				width:1204px;
+				background-color:#e5e5e5;
+				overflow:hidden;
+				margin-top:40px;
+				
+			}
+			.contentA
+			{
+				float:left;
+				width:650px;
+				height:300px;
+				
+				
+			}		
+
+			.contentA ul
+			{
+				list-style:none;
+				width:650px;
+				height:300px;
+				
+				
+			
+			}
+			.contentA li
+			{
+				float:left;
+				width:215px;
+				font:16px/200% "微软雅黑";
+			}
+			.styh2
+			{
+				display:solid 1px red;
+				height:50px;
+				border-bottom:solid 1px #c2c2c2;
+				margin-left:19px;
+			}
+			.contentB
+			{
+				float:right;
+				width:550px;
+				
+			}
+			.contA
+			{
+				float:left;
+				margin-left:20px;
+				width:200px;
+			}
+			.contA ul
+			{
+				list-style:none;
+			}
+			.contA ul li
+			{
+				font:16px/200% "微软雅黑";
+			}
+
+			.contB
+			{
+				float:right;
+			}
+			.contB img
+			{
+				margin-right:30px;
+			}
+			.footer
+			{
+				margin: 0 auto;
+				width:1204px;
+				overflow:hidden;
+			}
+			.footerleft 
+			{	float:left;
+				width:360px;
+				
+				height:80px;
+			}
+			.footerleft ul
+			{
+				list-style:none;
+				margin-top:19px;
+			}
+			.footerleft ul li
+			{
+				float:left;
+				margin-right:5px;
+				line-height:25px;
+			
+			}
+
+			.styleA
+			{
+				width:31px;
+				height:36px;
+				background:url(img/bg-sub-blog.jpg) no-repeat 1px 12px ;
+			}
+			.styleB
+			{
+				width:31px;
+				height:36px;
+				background:url(img/bg-sub-blog.jpg) no-repeat -24px 12px ;
+			}
+			.styleC
+			{
+				width:31px;
+				height:36px;
+				background:url(img/bg-sub-blog.jpg) no-repeat -48px 12px ;
+			}
+			.styleD
+			{
+				width:26px;
+				height:36px;
+				background:url(img/bg-sub-blog.jpg) no-repeat -71px 12px ;
+			}
+			.styleE
+			{
+				width:31px;
+				height:36px;
+				background:url(img/bg-sub-blog.jpg) no-repeat -96px 12px ;
+			}
+		
+			.footerright
+			{
+				
+				height:80px;
+				float:right;
+				width:840px;
+				
+			}
+			.footerright ul 
+			{
+				margin-left:-30px;
+				list-style:none;
+			}
+			.footerright li
+			{
+				float:left;
+				line-height:50px;
+				margin-top:-10px;
+			}
+		</style>
+	<body>
+		<div class = "top">
+			<img src = "img/bg-blog.gif" class = "topBolg"/>
+			<input type = "text" value = "SEARCH" class = "topSelect"></input>
+			<img src = "img/bg-select.gif" class ="topSelect">
+		</div>
+
+		<div class = "menu">
+		
+			<ul>
+				<li><a href = "#" class="borderleft">集团介绍</a></li>
+				<li><a href = "#" class="borderleft">产品中心</a></li>
+				<li><a href = "#" class="borderleft">卧龙市场</a></li>
+				<li><a href = "#" class="borderleft">技术研发</a></li>
+				<li><a href = "#" class="borderleft">国际合作</a></li>
+				<li><a href = "#" class="borderleft">投资这关系</a></li>
+				<li><a href = "#" class="borderleft">新闻资讯</a></li>
+				<li><a href = "#" >人力资源</a></li>
+			</ul>
+		</div>
+
+		<div class = "photo">
+			<img src = "img/bg-photo.gif" class ="newimg"/>
+			<img src = "img/img-btn-left.gif" class = "btnleft"/>
+			<img src = "img/img-btn-right.gif" class = "btnright"/>
+		</div>
+
+		<div class = "new">
+			<div class = "news">
+					<h2>新闻咨询</h2>
+				<ul>
+					<li>陈建成董事长出席ATB集团召开年度大会<span>2017/3/20</span></li>
+					<li>中国电器工业协会分马分会在卧龙召开董事长...<span>2017/3/20</span></li>
+					<li>陈建成懂事长访问中国驻德大使馆<span>2017/3/20</li>
+					<li>企业文化是企业持续经营的关键要素<span>2017/3/20</li>
+					<li>陈健成董事长在ATB集团2013年销售会议上发表重要..<span>2017/3/20</span></li>
+					<li>喜迎七一唱响卧龙年轻力量激发企业持久活力卧龙举..<span>2017/3/20</span></li>
+			
+				</ul>
+			</div>
+
+			<div class = "newright">
+					<div class = "newjs">
+						
+						<dl>
+							<dt><h2>卧龙介绍</h2></dt>
+							<dd>公司成立于1984年，经过进30年的发展</dd>
+							<dd>已经成为电器制造，房地产开发和金融投资商业并举的综合性跨国...</dd>
+						</dl>
+					</div>
+
+					<div class = "newrc">
+						<dl>
+							<dt><h2>人才招聘</h2></dt>
+							<dd>培养一流的人才，铸造一流的工程实现员工与企业共同发展</dd>
+						</dl>
+						<img src = "img/bg-hua.gif" class = "newrcimgA"/>
+						<img src = "img/bg-more.gif" class = "newrcimgB"/>
+						
+						
+					</div>
+
+			</div>
+		</div>
+			
+			<div class = "wolng">
+			<h2>卧龙市场</h2>
+				<ul >
+					<li class = "wosytle">
+						<ul>
+							<li><img src = "img/imgsc-0.gif"/></li>
+							<li>交通轨道：由于主要采用电器牵引而且轮轨摩擦阻力较小，与公共...</li>
+						</ul>
+					</li>
+
+					<li class = "wosytle">
+						<ul>
+							<li><img src = "img/imgsc-1.gif"/></li>
+							<li>节能环保：由于不断上涨的能源消耗和我们的专业知识，维护可持续...</li>
+						</ul>
+					</li>
+
+					
+					<li class = "wosytle">
+						<ul>
+							<li ><img src = "img/imgsc-2.gif"/></li>
+							<li>航空与船舰：如果你在公海行驶，你需要确保你的船只的电力系统...</li>
+						</ul>
+					</li>
+
+					<li class = "wosytle">
+						<ul>
+							<li><img src = "img/imgsc-3.gif"/></li>
+							<li>石油、天然气及采矿：在市场中的安全性，可靠性，效率和最短的时机...</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div class = "content">
+				<div class = "contentA">
+					<h2 class = "styh2">产品中心</h2>
+					<ul>
+						<li>汽车电器</li>
+						<li>日用电器</li>
+						<li>特种电器</li>
+						<li>大功率电机</li>
+						<li>电工设备</li>
+						<li>工业驱动和自动化</li>
+						<li>高压变频和系统集成</li>
+						<li>混泥土搅拌机</li>
+						<li>电动车辆</li>
+						<li>电池电源</li>
+						<li>输变电设备</li>
+						<li>楼盘信息</li>
+						<li>金融产品</li>
+					</ul>
+				</div>
+
+				<div class = "contentB">
+					<div class = "contA">
+						<h2 class = "styh2">产品中心</h2>
+						<ul>
+							<li>科技力量</li>
+							<li>先进设备</li>
+							<li>研发创新</li>
+							<li>工艺流程</li>
+						</ul>
+					</div>
+
+					<div class = "contB">
+						<h2 class = "styh2">销售网络</h2>
+						<ul>
+							<img src = "img/bg-map.gif">
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class = "footer">
+				<div class = "footerleft">
+					<ul>
+						<li>网站地图</li>
+						<li class = "borderleft">联系我们</li>
+						<li>关注卧龙</li>
+						<li>采购系统入口</li>
+					</ul>
+				</div>
+				<div class = "footerright">
+
+					<ul>
+						<li>CopyRIgHT &copy 2013卧龙控股集团 版权所有 浙ICP06005901号&nbsp 技术支持：博彩互动
+							&nbsp分享到
+							
+						</li>
+						<a href = "#"><li class = "styleA"/></li></a>
+						<a href = "#"><li class = "styleB"/></li></a>
+						<a href = "#"><li class = "styleC"/></li></a>
+						<a href = "#"><li class = "styleD"/></li></a>
+						<a href = "#"><li class = "styleE"/></li></a>
+					</ul>
+				</div>
+			</div>
+	</body>
+	
+</html>
